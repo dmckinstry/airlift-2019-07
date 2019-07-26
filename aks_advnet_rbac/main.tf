@@ -6,7 +6,7 @@ terraform {
 
     container_name       = "tfstate"
     key                  = "prod.terraform.tfstate"
-
+    storage_account_name = "terraformstate9827349"
     # access_key = Do not put the secret in the repo! Use the ARM_ACCESS_KEY environment variable instead!
   }
 }
